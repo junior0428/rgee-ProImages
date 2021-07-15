@@ -83,7 +83,6 @@ ee.ImageCollection({
     }
   }
 })
-![image](https://user-images.githubusercontent.com/51866276/125851707-69829718-5255-43e5-aba3-a671d3a4628c.png)
 
 ```
 </td>
