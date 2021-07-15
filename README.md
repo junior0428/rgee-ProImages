@@ -73,12 +73,18 @@ image.bandNames().getInfo()
 <td>
 
 ``` r
-library(rgee)
-ee_Initialize()
-db <- 'CGIAR/SRTM90_V4'
-image <- ee$Image(db)
-image$bandNames()$getInfo()
-#> [1] "elevation"
+ee.ImageCollection({
+  "functionInvocationValue": {
+    "functionName": "ImageCollection.load",
+    "arguments": {
+      "id": {
+        "constantValue": "COPERNICUS/S2"
+      }
+    }
+  }
+})
+![image](https://user-images.githubusercontent.com/51866276/125851707-69829718-5255-43e5-aba3-a671d3a4628c.png)
+
 ```
 </td>
 </tr>
